@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "es6",
+        "jsx": "react",
+        "noImplicitAny": true,
+        "experimentalDecorators": true,
+        "preserveConstEnums": true,
+        "outDir": "build",
+        "rootDir": "src",
+        "sourceMap": true
+    },
+    "files": [
+        "src/WeatherProject.tsx",
+        "src/Forecast.tsx"
+
+    ],
+    "exclude": [
+        "node_modules"
+    ],
+    "compileOnSave": true
+}
